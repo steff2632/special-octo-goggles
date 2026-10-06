@@ -1,0 +1,57 @@
+{
+  "hits": [
+    {
+      "id": 1,
+      "sku": "B3A3E",
+      "inStock": true,
+      "availableSizes": [
+        { "id": 11, "inStock": true, "inventoryQuantity": 1, "price": 1000, "size": "xs", "sku": "A-XS" },
+        { "id": 12, "inStock": false, "inventoryQuantity": 0, "price": 1000, "size": "s", "sku": "A-S" }
+      ],
+      "title": "Speed Leggings",
+      "description": "<meta charset=\"utf-8\"><p><strong>RUN WITH IT</strong></p>",
+      "type": "Womens Leggings",
+      "gender": ["f"],
+      "fit": null,
+      "labels": ["going-fast", "new"],
+      "colour": "Navy",
+      "price": 1000,
+      "compareAtPrice": null,
+      "discountPercentage": null,
+      "unexpectedField": { "nested": true },
+      "featuredMedia": { "id": 100, "src": "https://cdn.example.com/a.jpg", "alt": null, "position": 1 },
+      "media": [
+        { "id": 100, "src": "https://cdn.example.com/a.jpg", "position": 1 },
+        { "id": 101, "src": "https://cdn.example.com/b.jpg", "position": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "No Image Product",
+      "labels": null,
+      "colour": "Black",
+      "price": 65,
+      "featuredMedia": null,
+      "media": []
+    },
+    {
+      "id": 3,
+      "title": "Broken Image Product",
+      "labels": [],
+      "price": 50,
+      "featuredMedia": { "src": "not a url" },
+      "media": [ { "src": "" }, null, { "src": "//cdn.example.com/c.jpg", "position": 3 } ]
+    },
+    {
+      "id": 4,
+      "title": "Malformed Product",
+      "price": { "amount": "oops" }
+    },
+    {
+      "id": 5,
+      "title": null,
+      "price": 1000
+    },
+    null
+  ]
+}

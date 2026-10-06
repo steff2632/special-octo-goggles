@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="products_title">Products</string>
+    <string name="product_details_title">Product details</string>
+    <string name="back">Back</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading</string>
+    <string name="no_products">No products available right now.</string>
+    <string name="error_network">Couldn\'t connect. Check your internet connection and try again.</string>
+    <string name="error_data">We received unexpected data from the server.</string>
+    <string name="error_not_found">This product could not be found.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="refresh_failed">Couldn\'t refresh products.</string>
+    <string name="image_unavailable">Image unavailable</string>
+    <string name="price_unavailable">Price unavailable</string>
+    <string name="out_of_stock">Out of stock</string>
+    <string name="in_stock">In stock</string>
+    <string name="colour_value">Colour: %1$s</string>
+    <string name="fit_value">Fit: %1$s</string>
+    <string name="type_value">Type: %1$s</string>
+    <string name="sku_value">SKU: %1$s</string>
+    <string name="sizes">Sizes</string>
+    <string name="description">Description</string>
+    <string name="no_description">No description available.</string>
+    <string name="discount_value">%1$d%% off</string>
+    <string name="original_price">Was %1$s</string>
+    <string name="image_page">Image %1$d of %2$d</string>
+    <string name="size_out_of_stock">%1$s, out of stock</string>
+</resources>
